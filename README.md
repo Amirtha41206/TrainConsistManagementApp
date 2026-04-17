@@ -18,6 +18,7 @@ Version Control: Git & GitHub
 Testing: JUnit
 
 ## Project Structure
+```
 TrainConsistManagementApp/
 │── src/
 │   ├── main/
@@ -33,35 +34,37 @@ TrainConsistManagementApp/
 │
 │── lib/ (JUnit jars for VS Code)
 │── README.md
-
+```
 ## Use Cases Implemented
-🔹 Basic Operations
-UC1: Initialize Train Consist
-UC2: Add/Remove Passenger Bogies (ArrayList)
-UC3: Unique Bogie IDs (HashSet)
-UC4: Ordered Bogies (LinkedList)
-UC5: Ordered Unique Bogies (LinkedHashSet)
-🔹 Data Mapping & Processing
-UC6: Bogie Capacity Mapping (HashMap)
-UC7: Sorting using Comparator
-UC8: Unit Testing with JUnit
-🔹 Stream API & Functional Programming
-UC9: Grouping Bogies (groupingBy)
-UC10: Total Capacity Calculation (reduce)
-UC11: Regex Validation
-🔹 Safety & Performance
-UC12: Safety Compliance (Streams)
-UC13: Performance Comparison (Loop vs Stream)
-🔹 Exception Handling
-UC14: Custom Exception (Invalid Capacity)
-UC15: Runtime Exception Handling (try-catch-finally)
-🔹 Algorithms
-UC16: Bubble Sort (Manual Sorting)
-UC17: Arrays.sort() (Optimized Sorting)
-UC18: Linear Search
-UC19: Binary Search
-🔹 Defensive Programming
-UC20: Exception Handling for Empty Search
+
+### 🔹 Basic Operations
+- UC1: Initialize Train Consist
+- UC2: Add/Remove Passenger Bogies (ArrayList)
+- UC3: Unique Bogie IDs (HashSet)
+- UC4: Ordered Bogies (LinkedList)
+- UC5: Ordered Unique Bogies (LinkedHashSet)
+### 🔹 Data Mapping & Processing
+- UC6: Bogie Capacity Mapping (HashMap)
+- UC7: Sorting using Comparator
+- UC8: Unit Testing with JUnit
+### 🔹 Stream API & Functional Programming
+- UC9: Grouping Bogies (groupingBy)
+- UC10: Total Capacity Calculation (reduce)
+- UC11: Regex Validation
+### 🔹 Safety & Performance
+- UC12: Safety Compliance (Streams)
+- UC13: Performance Comparison (Loop vs Stream)
+### 🔹 Exception Handling
+- UC14: Custom Exception (Invalid Capacity)
+- UC15: Runtime Exception Handling (try-catch-finally)
+### 🔹 Algorithms
+- UC16: Bubble Sort (Manual Sorting)
+- UC17: Arrays.sort() (Optimized Sorting)
+- UC18: Linear Search
+- UC19: Binary Search
+### 🔹 Defensive Programming
+- UC20: Exception Handling for Empty Search
+  
 ## How to Run
 Compile
 javac filename.java
